@@ -3,6 +3,8 @@
  	using minutes = int;
  	
  	typedef int seconds;
+ 	
+using namespace std;
 
 int main () {
 
@@ -12,7 +14,7 @@ int main () {
 		
 	y = x * 3;
 	
-	std::cout << "1 Задание 2 урока\n";
+	std::cout << "1 Задание 2 урока\n\n";
 	std::cout << y; // Как сделать перенос в одну строчку? /n  пробовал 
         std::cout << "\n";
              
@@ -39,12 +41,9 @@ int main () {
 	std::cout << "\n\n";
 
 	
-	
-	// 2 Задание
-	
-	
-
-
+	// 2 Задание в main2_2.cpp
+       std::cout << "2 Задание 2 урока в main2_2.cpp\n\n";
+     
 
 	return 0;		
 }

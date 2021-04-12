@@ -150,6 +150,33 @@ main3.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main3.cpp.s
 .PHONY : main3.cpp.s
 
+main3_3.o: main3_3.cpp.o
+
+.PHONY : main3_3.o
+
+# target to build an object file
+main3_3.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main3_3.cpp.o
+.PHONY : main3_3.cpp.o
+
+main3_3.i: main3_3.cpp.i
+
+.PHONY : main3_3.i
+
+# target to preprocess a source file
+main3_3.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main3_3.cpp.i
+.PHONY : main3_3.cpp.i
+
+main3_3.s: main3_3.cpp.s
+
+.PHONY : main3_3.s
+
+# target to generate assembly for a file
+main3_3.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main3_3.cpp.s
+.PHONY : main3_3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main3.o"
 	@echo "... main3.i"
 	@echo "... main3.s"
+	@echo "... main3_3.o"
+	@echo "... main3_3.i"
+	@echo "... main3_3.s"
 .PHONY : help
 
 

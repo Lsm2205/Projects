@@ -3,5 +3,10 @@
   "directory": "/home/it/Рабочий стол/c++/projects/Lession_III/build",
   "command": "/bin/clang++-10    -g   -o CMakeFiles/main.dir/main3.cpp.o -c \"/home/it/Рабочий стол/c++/projects/Lession_III/main3.cpp\"",
   "file": "/home/it/Рабочий стол/c++/projects/Lession_III/main3.cpp"
+},
+{
+  "directory": "/home/it/Рабочий стол/c++/projects/Lession_III/build",
+  "command": "/bin/clang++-10    -g   -o CMakeFiles/main.dir/main3_3.cpp.o -c \"/home/it/Рабочий стол/c++/projects/Lession_III/main3_3.cpp\"",
+  "file": "/home/it/Рабочий стол/c++/projects/Lession_III/main3_3.cpp"
 }
 ]

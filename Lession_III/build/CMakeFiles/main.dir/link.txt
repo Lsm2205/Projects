@@ -1,1 +1,1 @@
-/bin/clang++-10  -g   CMakeFiles/main.dir/main3.cpp.o  -o main 
+/bin/clang++-10  -g   CMakeFiles/main.dir/main3.cpp.o CMakeFiles/main.dir/main3_3.cpp.o  -o main 

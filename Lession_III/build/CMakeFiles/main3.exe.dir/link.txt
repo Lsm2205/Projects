@@ -1,0 +1,1 @@
+/bin/clang++-10  -g   CMakeFiles/main3.exe.dir/main3.cpp.o  -o main3.exe 

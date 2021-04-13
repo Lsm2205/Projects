@@ -18,12 +18,16 @@ int main () {
   z = x + y;
   std::cout << z << "\n"; 
   
-  if (x >= 10 && x <= 20){
-      std::cout << "true\n";
-  } else if (x < 10 or x > 20) {
-  
-      std::cout << "fasle\n";
-  }
+  if (z >= 10 && z <= 20)
+      {
+          std::cout << "true\n";
+      }
+  else 
+     {
+           std::cout << "fasle\n";
+     }
+
+
 
 
 

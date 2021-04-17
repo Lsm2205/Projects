@@ -1,9 +1,9 @@
  #include <iostream>
  #include <string>
 
- using std::cout;
- using std::cin;
- using std::endl;
+ //using std::cout;
+ //using std::cin;
+ //using std::endl;
 
  void invert(unsigned numbers[], size_t length) {
      for (size_t i = 0; i < length; i++){

@@ -1,0 +1,1 @@
+/bin/clang++-10  -g   CMakeFiles/main5.exe.dir/main5.cpp.o  -o main5.exe 

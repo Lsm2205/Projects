@@ -4,7 +4,16 @@
  using std::cout;
  using std::cin;
  using std::endl;
-  
+
+ void invert(unsigned numbers[], size_t length) {
+     for (size_t i = 0; i < length; i++){
+         if (numbers[i] == 0) {
+             numbers[i] =1;
+          } else if (numbers[i] == 1){
+          numbers[i] = 0;
+     }
+    }
+ } 
 
 int main () {
    /* 1 задание 5 урока
@@ -13,22 +22,15 @@ int main () {
    заменяющую в принятом массиве 0 на 1, 1 на 0 (** без применения 
    if-else, switch, () ? :);
    */                                   
-  int arr[2];
-
-        // Заполняем массив с клавиатуры
-        for (int i = 0; i < 2; i++) {
-            std::cout << "[" << i + 1 << "]" << ": ";
-            cin >> arr[i];
-        }
-
-        // И выводим заполненный массив.
-        std::cout << "\n Массив: ";
-
-        for (int i = 0; i < 2; ++i) {
-            std::cout << arr[i] << " ";
-        }
-
-        cout << endl;
+  
+  unsigned nums[]{1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
+    invert(nums, 10);
+    for (size_t i =0 ; i < 10; i++) {
+        std::cout << nums[i] << " " ;
+    }
+    std::cout << '\n';
+     
+        
 
         return 0;
 }     

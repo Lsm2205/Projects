@@ -9,4 +9,8 @@
 /home/it/Рабочий стол/c++/projects/Lession_VI/main6.cpp
 iostream
 -
+fstream
+-
+cstring
+-
 

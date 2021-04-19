@@ -1,0 +1,3 @@
+/home/it/Рабочий стол/c++/projects/Lession_VI/build/CMakeFiles/rebuild_cache.dir
+/home/it/Рабочий стол/c++/projects/Lession_VI/build/CMakeFiles/edit_cache.dir
+/home/it/Рабочий стол/c++/projects/Lession_VI/build/CMakeFiles/main6.exe.dir

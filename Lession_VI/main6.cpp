@@ -47,22 +47,22 @@ int main (int argv,char** argc) {
     //system("pause");
 
 
-    
+
     /*2 задание 6 урока
      Написать функцию, «склеивающую» эти файлы, предварительно буферизуя 
      их содержимое в динамически выделенный сегмент памяти нужного размера.
      */
     if(argv<3)
     {
-      std::cout << "Неправильные входные параметры" << std::endl;
+    std::cout << "Неправильные входные параметры" << std::endl;
       return -1;
     }
 
 
 
   //читаем файл
-  std::fstream file1;
-  std::fstream file2;
+  std::fstream file1 ( "file1.txt" );
+  std::fstream file2 ( "file2.txt" );
   file1.open(argc[1]);
   file2.open(argc[2]);
 
@@ -80,34 +80,23 @@ int main (int argv,char** argc) {
   std::istream_iterator<std::string> eof1;
   std::istream_iterator<std::string> eof2;
 
-
-
   std::vector<std::string> vector1(in1,eof1);
   std::vector<std::string> vector2(in2,eof2);
 
 
-
   std::vector<std::string> names;
-
 
 
   std::copy(vector1.begin(),vector1.end(),back_inserter(names));
   std::copy(vector2.begin(),vector2.end(),back_inserter(names));
 
 
-
   //std::copy(names.begin(),names.end(),std::ostream_iterator<std::string>(std::cout," "));
-
-
 
   std::sort(names.begin(),names.end());
   auto it=std::unique(names.begin(),names.end());
 
-
-
   names.erase(it);
-
-
 
   std::copy(names.begin(),names.end(),std::ostream_iterator<std::string>(std::cout," "));
 

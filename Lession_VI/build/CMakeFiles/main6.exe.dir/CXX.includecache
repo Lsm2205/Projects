@@ -13,4 +13,10 @@ fstream
 -
 cstring
 -
+algorithm
+-
+vector
+-
+iterator
+-
 

@@ -1,0 +1,1 @@
+/bin/clang++-10  -g   CMakeFiles/main7.exe.dir/main7.cpp.o  -o main7.exe 

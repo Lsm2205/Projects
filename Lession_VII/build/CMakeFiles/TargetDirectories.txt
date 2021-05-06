@@ -1,0 +1,3 @@
+/home/it/Рабочий стол/c++/projects/Lession_VII/build/CMakeFiles/rebuild_cache.dir
+/home/it/Рабочий стол/c++/projects/Lession_VII/build/CMakeFiles/edit_cache.dir
+/home/it/Рабочий стол/c++/projects/Lession_VII/build/CMakeFiles/main7.exe.dir

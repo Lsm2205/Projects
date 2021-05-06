@@ -1,0 +1,3 @@
+/home/it/Рабочий стол/c++/projects/Lession_VIII/build/CMakeFiles/rebuild_cache.dir
+/home/it/Рабочий стол/c++/projects/Lession_VIII/build/CMakeFiles/edit_cache.dir
+/home/it/Рабочий стол/c++/projects/Lession_VIII/build/CMakeFiles/TTT.dir

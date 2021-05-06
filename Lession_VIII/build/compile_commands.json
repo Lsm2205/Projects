@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/it/Рабочий стол/c++/projects/Lession_VIII/build",
+  "command": "/bin/clang++-10    -g   -std=gnu++17 -o CMakeFiles/TTT.dir/main8.cpp.o -c \"/home/it/Рабочий стол/c++/projects/Lession_VIII/main8.cpp\"",
+  "file": "/home/it/Рабочий стол/c++/projects/Lession_VIII/main8.cpp"
+}
+]

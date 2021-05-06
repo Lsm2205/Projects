@@ -1,0 +1,1 @@
+/bin/clang++-10  -g   CMakeFiles/TTT.dir/main8.cpp.o  -o TTT 

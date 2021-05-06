@@ -1,3 +1,6 @@
 anna 
 sasha 
 kolya
+max 
+ivan 
+sergey
